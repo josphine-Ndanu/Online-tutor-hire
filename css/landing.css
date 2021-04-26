@@ -47,6 +47,7 @@
     flex-direction: column;
     text-align: center;
     background-position: center center;
+    padding: 4%;
 }
 
 #imageWidth{
@@ -58,5 +59,4 @@
     padding:10px;
     color: black;
     text-align: left;
-
 }
