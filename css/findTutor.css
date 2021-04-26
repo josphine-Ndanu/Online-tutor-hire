@@ -15,8 +15,16 @@ border-color:grey;
 #tutor h4{
     color:#535b81;
 }
-/* #tutorList img{
-    padding-right: 20px;
+#cover{
+  height: 500px;
+    width: 100%;
+}
+#cover img{
+    width: 100%;
+    height: 100%;
+}
+/* #tutorLisvht img{
+    paddin-right: 20px;
 }
 #tImage{
 height: 300px;
