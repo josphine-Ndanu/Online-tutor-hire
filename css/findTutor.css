@@ -1,4 +1,40 @@
-.findTutor{
+ .findTutor{
     background-color: #ebebeb;
     height: 800px;
+ }
+#tutorList img{
+height: 100px;
+width: 100px;
 }
+
+/* #tutorList{
+    width: 80%;  
+    
+    background-color: white;
+    display: flex; 
+
+} */ */
+/* #tutorList img{
+    padding-right: 20px;
+}
+#tImage{
+height: 300px;
+width: 300px;
+} */
+
+
+
+
+/* #image{
+    height: 300px;
+    width: 300px;
+    padding-right: 20px;
+}
+#tutorPic img{
+   
+    width: 100%;
+    height: 100%;
+    
+}*/
+
+
