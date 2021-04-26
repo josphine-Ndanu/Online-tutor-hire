@@ -1,19 +1,20 @@
  .findTutor{
     background-color: #ebebeb;
-    height: 800px;
+    
  }
 #tutorList img{
 height: 100px;
 width: 100px;
 }
 
-/* #tutorList{
-    width: 80%;  
-    
-    background-color: white;
-    display: flex; 
+#tutorList a{
+margin: 10px;
+border-color:grey;
+}
 
-} */ */
+#tutor h4{
+    color:#535b81;
+}
 /* #tutorList img{
     padding-right: 20px;
 }
