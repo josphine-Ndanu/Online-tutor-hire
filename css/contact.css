@@ -29,10 +29,11 @@ h2{
 .social{
     align-items: center;
     display: flex;
+    justify-content: center;
     padding: 2%;
     width: 10px;
     height: 4px;
-    margin-left: 300px;
+    margin-left: 500px;
     margin-bottom: 80%;
     padding-bottom: 30px;
     padding-bottom: 20%;
@@ -164,5 +165,45 @@ footer {
     .col2 {
         display: none;
     }
+
+}
+#pic1{
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+
+}
+#pic1:hover{
+    transform: scale(1.5);
+    margin-left: 70px;
+  
+}
+#pic2{
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+
+}
+#pic2:hover{
+    transform: scale(1.5);
+    margin-left: 70px;
+  
+}
+#pic3{
+    border-radius: 50%;
+    transition: 0.2s ease-out;
+
+}
+#pic3:hover{
+    transform: scale(1.5);
+    margin-left: 70px;
+  
+}
+#pic4:hover{
+    transform: scale(1.5);
+    margin-left: 70px;
+  
+}
+#pic4{
+    border-radius: 50%;
+    transition: 0.2s ease-out;
 
 }
