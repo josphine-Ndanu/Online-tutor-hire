@@ -1,5 +1,6 @@
- .findTutor{
-    background-color: #ebebeb;
+ #content .findTutor{
+    background-color: #ebebeb; 
+    width: 70%;
     
  }
 #tutorList img{
@@ -15,35 +16,14 @@ border-color:grey;
 #tutor h4{
     color:#535b81;
 }
-#cover{
-  height: 500px;
-    width: 100%;
-}
 #cover img{
     width: 100%;
     height: 100%;
-}
-/* #tutorLisvht img{
-    paddin-right: 20px;
-}
-#tImage{
-height: 300px;
-width: 300px;
-} */
-
-
-
-
-/* #image{
-    height: 300px;
-    width: 300px;
-    padding-right: 20px;
-}
-#tutorPic img{
-   
-    width: 100%;
-    height: 100%;
     
-}*/
-
+}
+#cover{
+    height: 60vh;
+  
+    
+}
 
