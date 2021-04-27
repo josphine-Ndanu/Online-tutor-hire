@@ -7,7 +7,7 @@
 2. Joy Kolian
 3. Joel Wambugu
 4. Dennis Kimani
-5. Joseph Wamgare
+5. Joseph Wangare
 
 
 ## Description
