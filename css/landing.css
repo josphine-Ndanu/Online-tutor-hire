@@ -14,7 +14,7 @@
     bottom: 0;
     padding: 8%;
     font-size: 18px;
-    background-color: rgba(0, 0, 0, 0.5);
+background-color: rgba(0, 0, 0, 0.5);
     color: white;
 }
 
@@ -54,6 +54,7 @@
     color: #11162c;
     padding: 20px;
 }
+
 #imageWidth{
     width:100px;
     height: 100px;
@@ -72,3 +73,4 @@
 .review{
     padding:3%;
 }
+

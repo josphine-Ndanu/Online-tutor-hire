@@ -1,0 +1,29 @@
+ #content .findTutor{
+    background-color: #ebebeb; 
+    width: 70%;
+    
+ }
+#tutorList img{
+height: 100px;
+width: 100px;
+}
+
+#tutorList a{
+margin: 10px;
+border-color:grey;
+}
+
+#tutor h4{
+    color:#535b81;
+}
+#cover img{
+    width: 100%;
+    height: 100%;
+    
+}
+#cover{
+    height: 60vh;
+  
+    
+}
+
