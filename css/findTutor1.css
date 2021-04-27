@@ -71,13 +71,10 @@ background-color: coral;
     color: white;
     font-weight: 700;
     z-index: 1;
-    padding-top: 320px;
+    padding-top: 330px;
 
 }
 
-.overlay h1 {
-    
-}
 
 .overlay h2 {
     color: coral;
