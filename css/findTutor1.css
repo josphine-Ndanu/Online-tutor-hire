@@ -1,95 +1,96 @@
- #content .findTutor {
-     background-color: #ebebeb;
-     width: 80%;
-     margin: auto;
- }
-
- #tutorList img {
-     height: 100px;
-     width: 100px;
- }
-#tutorList h1{
-    text-align: center;
-    color: #11162ce0;
+#content .findTutor {
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
 }
 
- #tutorList a {
-     margin: 10px;
-     border-color: gray;
- }
+#tutorList img {
+    height: 100px;
+    width: 100px;
+}
+#tutorList h1{
+   text-align: center;
+   color: #11162ce0;
+}
 
- #tutor h4 {
-     color: #535b81;
- }
+#tutorList a {
+    margin: 10px;
+    border-color: gray;
+}
 
- #cover img {
-     width: 100%;
-     height: 100%;
+#tutor h4 {
+    color: #535b81;
+}
 
- }
+#cover img {
+    width: 100%;
+    height: 100%;
 
- #cover {
-     height: 75vh;
-     background: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
-     background-repeat: no-repeat;
-     background-position: center center;
-     background-size: cover;
-     /* flex-direction: column; */
-     text-align: center;
-     width: 100%;
-     position: relative;
+}
 
-
- }
-
-
- #tutor a:hover {
-     background-color: coral;
- }
-
- .btn-warning {
-     color: white;
- }
-
- .checked {
-     color: coral;
- }
-
- .unchecked {
-     color: black;
- }
+#cover {
+    height: 75vh;
+    background: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    /* flex-direction: column; */
+    text-align: center;
+    width: 100%;
+    position: relative;
 
 
+}
 
- .overlay {
+
+#tutor a:hover {
+    background-color: coral;
+}
+
+.btn-warning {
+    color: white;
+}
+
+.checked {
+    color: coral;
+}
+
+.unchecked {
+    color: black;
+}
+
+
+
+.overlay {
     position: absolute;
     left: 0;
     height: 75vh;
     background-color: rgba(0, 0, 0, 0.5);
     color: white;
     font-weight: 700;
-    
+    z-index: 1;
+    padding-top: 320px;
 
 }
 
- .overlay h1 {
-     padding-top: 350px
- }
+.overlay h1 {
+    
+}
 
- .overlay h2 {
-     color: coral;
- }
+.overlay h2 {
+    color: coral;
+}
 
 
 .search{
-  padding: 25px;
-   margin: auto;
-   /* margin-left: 50px; */
-    text-align: center;
+ padding: 25px;
+  margin: auto;
+  /* margin-left: 50px; */
+   text-align: center;
 }
 .pick{
-   
-    width: 50%;
-    height: 40px;
+  
+   width: 50%;
+   height: 40px;
 }
 
