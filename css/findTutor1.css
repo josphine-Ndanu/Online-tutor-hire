@@ -8,10 +8,14 @@
      height: 100px;
      width: 100px;
  }
+#tutorList h1{
+    text-align: center;
+    color: #11162ce0;
+}
 
  #tutorList a {
      margin: 10px;
-     border-color: grey;
+     border-color: gray;
  }
 
  #tutor h4 {
@@ -78,7 +82,7 @@
 
 
 .search{
-  padding: 20px;
+  padding: 25px;
    margin: auto;
    /* margin-left: 50px; */
     text-align: center;
