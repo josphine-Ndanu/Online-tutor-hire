@@ -1,29 +1,53 @@
- #content .findTutor{
-    background-color: #ebebeb; 
-    width: 70%;
+ #content .findTutor {
+     background-color: #ebebeb;
+     width: 70%;
+     margin: auto;
+ }
+
+ #tutorList img {
+     height: 100px;
+     width: 100px;
+ }
+
+ #tutorList a {
+     margin: 10px;
+     border-color: grey;
+ }
+
+ #tutor h4 {
+     color: #535b81;
+ }
+
+ #cover img {
+     width: 100%;
+     height: 100%;
+
+ }
+
+ #cover {
+     height: 60vh;
+     background-image: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     flex-direction: column;
+     text-align: center;
     
  }
-#tutorList img{
-height: 100px;
-width: 100px;
-}
 
-#tutorList a{
-margin: 10px;
-border-color:grey;
-}
-
-#tutor h4{
-    color:#535b81;
-}
-#cover img{
-    width: 100%;
-    height: 100%;
-    
-}
-#cover{
-    height: 60vh;
-  
-    
-}
-
+ #overlay {
+     background-color: bisque;
+ }
+ #tutor a:hover{
+     background-color: coral;
+ }
+ .btn-warning{
+     color: white;
+ }
+ .checked{
+     color: coral;
+ }
+ .unchecked{
+     color:black;
+ }
+ 
