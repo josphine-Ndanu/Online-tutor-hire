@@ -1,6 +1,6 @@
  #content .findTutor {
      background-color: #ebebeb;
-     width: 70%;
+     width: 80%;
      margin: auto;
  }
 
@@ -33,45 +33,59 @@
      /* flex-direction: column; */
      text-align: center;
      width: 100%;
-     position: relative;   
-    
-    
+     position: relative;
+
+
  }
 
- 
- #tutor a:hover{
+
+ #tutor a:hover {
      background-color: coral;
  }
- .btn-warning{
+
+ .btn-warning {
      color: white;
  }
- .checked{
+
+ .checked {
      color: coral;
  }
- .unchecked{
-     color:black;
+
+ .unchecked {
+     color: black;
  }
- 
- 
 
-.overlay {   
-  position: absolute;
-  left: 0;
-    height: 70vh;
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    font-weight: 700;
-    z-index:2;
 
-}
-.overlay h1{
-padding-top: 350px
-}
-.overlay h2{
-    color:coral;
-}
+
+ .overlay {
+     position: absolute;
+     left: 0;
+     height: 70vh;
+     background-color: rgba(0, 0, 0, 0.5);
+     color: white;
+     font-weight: 700;
+     z-index: 2;
+
+ }
+
+ .overlay h1 {
+     padding-top: 350px
+ }
+
+ .overlay h2 {
+     color: coral;
+ }
+
+
 .search{
-    width:50%;
-    margin: -2px
-
+  padding: 20px;
+   margin: auto;
+   /* margin-left: 50px; */
+    text-align: center;
 }
+.pick{
+   
+    width: 50%;
+    height: 40px;
+}
+
