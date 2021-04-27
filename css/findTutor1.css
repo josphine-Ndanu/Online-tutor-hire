@@ -62,15 +62,16 @@
 
 
  .overlay {
-     position: absolute;
-     left: 0;
-     height: 70vh;
-     background-color: rgba(0, 0, 0, 0.5);
-     color: white;
-     font-weight: 700;
-     z-index: 2;
+    position: absolute;
+    left: 0;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 700;
+    z-index: 1;
+    padding-top: 320px;
 
- }
+}
 
  .overlay h1 {
      padding-top: 350px
