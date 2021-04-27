@@ -13,21 +13,14 @@
 	padding: 20px;
 }
 
-.my_control{
-	width: 85%;
-}
+
 
 .my_control2{
 	width: 91%;
 	border: 0;
 }
 
-.img_class{
-	display: flex;
-}
-
-.img_class_div{
-	width: 410px;     
+.img_class_div{    
 	border: 1px solid #ced4da;
 	border-radius: 0.25rem;
 }
@@ -45,15 +38,8 @@
 	border-right: 1px solid #ced4da;
 }
 .user_details{
-	display: grid;
-	grid-template-columns: 480px 480px 480px;
-	margin: 50px 0;
-}
-
-#last_details{
-	display: grid;
-	grid-template-columns: 355px 355px 355px 355px;
-	margin: 30px 0;
+	padding: 0;
+	margin: 50px 0 ;
 }
 
 #myButton{
