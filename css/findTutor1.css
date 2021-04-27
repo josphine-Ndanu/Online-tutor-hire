@@ -41,15 +41,17 @@
 
 
 }
-
-
-#tutor a:hover {
-    background-color: coral;
+.btn-warning:hover{
+background-color: coral;
 }
 
-.btn-warning {
-    color: white;
+.checked:hover{
+    color: coral;
 }
+.unchecked:hover{
+    color: black;
+}
+
 
 .checked {
     color: coral;
