@@ -1,0 +1,47 @@
+#heading{
+	text-align: center;
+	color: goldenrod;
+}
+
+#form_body{
+	border: 2px solid #ced4da;
+	border-radius: 0.25rem;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+
+
+.my_control2{
+	width: 91%;
+	border: 0;
+}
+
+.img_class_div{    
+	border: 1px solid #ced4da;
+	border-radius: 0.25rem;
+}
+
+.img_class input {
+	width: 80%;
+}
+
+.my_pic{
+	width: 35px;
+	height: 35px;
+	object-fit: cover;
+	padding: 5px;
+	float: left;
+	border-right: 1px solid #ced4da;
+}
+.user_details{
+	padding: 0;
+	margin: 50px 0 ;
+}
+
+#myButton{
+	text-align: center;
+}
