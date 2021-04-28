@@ -28,16 +28,17 @@
 
 }
 
-#cover {
-    height: 75vh;
-    background: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-size: cover;
-    /* flex-direction: column; */
-    text-align: center;
-    width: 100%;
-    position: relative;
+ #cover {
+     height: 75vh;
+     background: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     /* flex-direction: column; */
+     text-align: center;
+     width: 100%;
+     position: relative;
+
 
 
 }
@@ -63,6 +64,7 @@ background-color: coral;
 
 
 
+
 .overlay {
     position: absolute;
     left: 0;
@@ -71,9 +73,11 @@ background-color: coral;
     color: white;
     font-weight: 700;
     z-index: 1;
-    padding-top: 330px;
+  padding-top: 330px;
+  }
 
-}
+
+
 
 
 .overlay h2 {
