@@ -10,17 +10,17 @@ $(document).ready(function () {
 
 
 })
-$(document).ready(function (event) {
-    event.preventdefault();
+$(document).ready(function () {
+    
+  
+    $(".schedule").click(function () {
+        alert("A request has been send to the tutor.")
+    });
+ 
 
-    $('.hamburgerIcon').click(function () {
-                $('#sidebar').toggle();
-            })
-        
-            //hide nav on screen resize
-            $(window).resize(function () {
-                $('#sidebar').hide();
-            })
+})
+
+
     var tutors = [{
             name: "Mary Jackson",
             gender: "female",
