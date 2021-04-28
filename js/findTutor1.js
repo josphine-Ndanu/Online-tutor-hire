@@ -15,9 +15,9 @@ $(document).ready(function () {
 $(document).ready(function () {
     
   
-    // $(".schedule").click(function () {
-    //     alert("A request has been send to the tutor.")
-    // });
+    $(".schedule").click(function () {
+        alert("A request has been send to the tutor.")
+    });
     
 
     var tutors = [{
