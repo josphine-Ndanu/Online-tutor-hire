@@ -208,3 +208,17 @@ footer {
     transition: 0.2s ease-out;
 
 }
+button:hover
+{
+    background-color: #11162c;
+    color: #ffc107;
+    cursor: pointer;
+}
+/* .fb,
+.inst,
+.yout,
+.twit{
+    display: none;
+    
+} */
+
