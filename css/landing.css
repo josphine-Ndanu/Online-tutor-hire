@@ -65,6 +65,7 @@
 
 #imageWidth img {
     border-radius: 50%;
+    padding-top: 5px;
 }
 
 .card {
