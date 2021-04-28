@@ -1,0 +1,129 @@
+<<<<<<< HEAD
+ #content .findTutor{
+    background-color: #ebebeb; 
+    width: 70%;
+    
+ }
+#tutorList img{
+height: 100px;
+width: 100px;
+}
+
+#tutorList a{
+margin: 10px;
+border-color:grey;
+}
+
+#tutor h4{
+    color:#535b81;
+}
+#cover img{
+    width: 100%;
+    height: 100%;
+    
+}
+#cover{
+    height: 60vh;
+  
+    
+=======
+#content .findTutor {
+    background-color: #ebebeb;
+    width: 80%;
+    margin: auto;
+}
+
+#tutorList img {
+    height: 100px;
+    width: 100px;
+}
+#tutorList h1{
+   text-align: center;
+   color: #11162ce0;
+}
+
+#tutorList a {
+    margin: 10px;
+    border-color: gray;
+}
+
+#tutor h4 {
+    color: #535b81;
+}
+
+#cover img {
+    width: 100%;
+    height: 100%;
+
+}
+
+ #cover {
+     height: 75vh;
+     background: url("https://i.pinimg.com/originals/2d/94/2d/2d942d6b41f54d8daf50ffcf2dfbef88.png");
+     background-repeat: no-repeat;
+     background-position: center center;
+     background-size: cover;
+     /* flex-direction: column; */
+     text-align: center;
+     width: 100%;
+     position: relative;
+
+
+
+}
+.btn-warning:hover{
+background-color: coral;
+}
+
+.checked:hover{
+    color: coral;
+}
+.unchecked:hover{
+    color: black;
+}
+
+
+.checked {
+    color: coral;
+}
+
+.unchecked {
+    color: black;
+}
+
+
+
+
+.overlay {
+    position: absolute;
+    left: 0;
+    height: 75vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-weight: 700;
+    z-index: 1;
+  padding-top: 330px;
+  }
+
+
+
+
+
+.overlay h2 {
+    color: coral;
+}
+
+
+.search{
+ padding: 25px;
+  margin: auto;
+  /* margin-left: 50px; */
+   text-align: center;
+}
+.pick{
+  
+   width: 50%;
+   height: 40px;
+>>>>>>> 348d39bbd3720b013dbc91e9664943b6ec27fec8
+}
+
