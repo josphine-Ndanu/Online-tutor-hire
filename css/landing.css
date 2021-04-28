@@ -57,16 +57,17 @@
 #imageWidth{
     width:100px;
     height: 100px;
+    margin: 0 auto;
 }
 
 #imageWidth img{
     border-radius: 50%;
 }
+
 .card {
     margin:2%;
     color: black;
-    text-align: left;
-    padding: 5px;
+    text-align: center;
 }
 .card-title {
     margin-bottom: 0.5rem;
