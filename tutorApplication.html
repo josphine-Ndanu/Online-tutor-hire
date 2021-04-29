@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -53,20 +54,20 @@
 		<div class="row">
 			<div class="col-md-8" id="form_body">
 				<h1 id="heading"><strong>Apply to be a Tutor</strong></h1>
-				<form>
+				<form id="tutor_application_form" action="https://moringaschool.us1.list-manage.com/subscribe/post?u=af64375ecf23f81880231855c&amp;id=6d8ee05978" method="post">
 					<div class="user_details row">
 
 						<div class="col">
 							<label><h6>First Name:</h6></label>
-							<input name="Fname" type="text" placeholder="First Name ..." id="Fname" class="form-control"/>
+							<input name="Fname" type="text" placeholder="First Name ..." id="Fname" class="form-control" required/>
 						</div>
 						<div class="col">
 							<label><h6>Middle Name:</h6></label>
-							<input name="Mname" type="text" placeholder="Middle Name ..." id="Mname" class="form-control"/>
+							<input name="Mname" type="text" placeholder="Middle Name ..." id="Mname" class="form-control" required/>
 						</div>
 						<div class="col">
 							<label><h6>Last Name:</h6></label>
-							<input name="Lname" type="text" placeholder="Last Name ..." id="Lname" class="form-control"/>
+							<input name="Lname" type="text" placeholder="Last Name ..." id="Lname" class="form-control" required/>
 						</div>
 					</div>
 					<div class="user_details row">
@@ -75,7 +76,7 @@
 							<div class="img_class" >
 								<div class="img_class_div">
 									<img src="images/kenyaFlag.png" alt="" class="my_pic">
-									<input type="num" id="Phnum" placeholder="+254 " class="form-control my_control2">
+									<input type="num" id="Phnum" placeholder="+254 " class="form-control my_control2" required>
 								</div>
 							</div>
 						</div>
@@ -84,7 +85,7 @@
 							<div class="img_class">
 								<div class="img_class_div">
 									<img src="images/user.png" alt="" class="my_pic">
-									<input type="num" id="nat_id" placeholder="123 " class="form-control my_control2">
+									<input type="num" id="nat_id" placeholder="123 " class="form-control my_control2" required>
 								</div>
 
 							</div>
@@ -94,7 +95,7 @@
 							<div class="img_class">
 								<div class="img_class_div">
 									<img src="images/mail.jpg" alt="" class="my_pic">
-									<input type="email" id="Mail"  placeholder="example@gmail.com" class="form-control my_control2">
+									<input type="email" id="Mail"  placeholder="example@gmail.com" class="form-control my_control2" required>
 								</div>
 							</div>
 
@@ -103,24 +104,24 @@
 					<div class="user_details row">
 						<div class="col">
 							<label><h6>Current School:</h6></label>
-							<input type="text" id="curSchool" class="form-control my_control">
+							<input type="text" id="curSchool" class="form-control my_control" placeholder="Moringa" required>
 						</div>
 						<div class="col">
-							<label><h6>Teacher Service Commission Number:</h6></label>
-							<input type="text" id="tscNum" class="form-control my_control">
+							<label><h6>T.S.C number:</h6></label>
+							<input type="text" id="tscNum" class="form-control my_control" placeholder="Teacher service commision" required>
 
 						</div>
 						<div class="col">
 							<label><h6>Password:</h6></label>
-							<input type="password" id="Pass1" class="form-control my_control">
+							<input type="password" id="Pass1" class="form-control my_control" required>
 						</div>
 						<div class="col">
 							<label><h6>Confirm Password:</h6></label>
-							<input type="password" id="Pass2" class="form-control my_control">
+							<input type="password" id="Pass2" class="form-control my_control" required>
 						</div>
 					</div>
-					<div class="form-check">
-						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+					<div class="form-check" style="float: left;">
+						<input class="form-check-input" type="checkbox" value="" id="defaultCheck1"  required>
 						<label class="form-check-label" for="defaultCheck1">I have read and agree to the <a href="#" target="_blank">Terms & Conditions</a></label>
 					</div>
 					<div id="myButton">
@@ -181,5 +182,6 @@
 	<script src="js/jquery3.3.1.min.js"></script>
 	<script src="js/landing.js"></script>
     <script src="js/scripts.js"></script>
+	<script src="js/tutorApplication.js"></script>
 	</body>
 </html>

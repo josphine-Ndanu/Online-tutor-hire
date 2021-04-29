@@ -1,5 +1,3 @@
-
-
 $(document).ready(function () {
     $('.hamburgerIcon').click(function () {
         $('#sidebar').toggle();
@@ -13,12 +11,15 @@ $(document).ready(function () {
 
 })
 $(document).ready(function () {
-    
-  
+
+
     $(".schedule").click(function () {
         alert("A request has been send to the tutor.")
     });
-    
+
+
+
+
 
     var tutors = [{
             name: "Mary Jackson",
@@ -142,7 +143,7 @@ $(document).ready(function () {
             location.reload();
         })
     })
-   
+
 })
 
 

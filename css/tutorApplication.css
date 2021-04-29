@@ -44,4 +44,11 @@
 
 #myButton{
 	text-align: center;
+	float: right;
+}
+
+#register_btn{
+	background-color: goldenrod;
+	border-color: #11162c;
+	color: #11162c;
 }
