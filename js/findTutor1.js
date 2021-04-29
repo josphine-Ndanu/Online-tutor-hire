@@ -81,7 +81,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[6].name + "</h4> <p>" + tutors[6].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[6].specialization +
                 "</p> <p>" + tutors[6].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
 
@@ -89,7 +89,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[5].name + "</h4> <p>" + tutors[5].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[5].specialization +
                 "</p> <p>" + tutors[5].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
         } else if (selectedSubject == "Chemistry") {
@@ -97,7 +97,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[0].name + "</h4> <p>" + tutors[0].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[0].specialization +
                 "</p> <p>" + tutors[0].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
 
@@ -105,7 +105,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[1].name + "</h4> <p>" + tutors[1].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[1].specialization +
                 "</p> <p>" + tutors[1].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
         } else if (selectedSubject == "English") {
@@ -113,7 +113,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[4].name + "</h4> <p>" + tutors[4].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[4].specialization +
                 "</p> <p>" + tutors[4].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
 
@@ -122,7 +122,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[3].name + "</h4> <p>" + tutors[3].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[3].specialization +
                 "</p> <p>" + tutors[3].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
 
@@ -132,7 +132,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[2].name + "</h4> <p>" + tutors[2].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[2].specialization +
                 "</p> <p>" + tutors[2].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</a>" +
                 "</div>"
             );
 
