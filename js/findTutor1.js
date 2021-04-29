@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     $(".schedule").click(function () {           
           swal({
-            title: "Your request has been replaced successfully." + "\r\n" + "The tutor will get back to you",
+            title: "Your request has been placed successfully." + "\r\n" + "The tutor will get back to you",
             icon: "success",
         }).then((value) => {
             location.reload();
@@ -146,7 +146,7 @@ $(document).ready(function () {
 
         $(".schedule").click(function () {
             swal({
-                title: "Your request has been replaced successfully." + "\r\n" + "The tutor will get back to you",
+                title: "Your request has been placed successfully." + "\r\n" + "The tutor will get back to you",
                 icon: "success",
             }).then((value) => {
                 location.reload();
