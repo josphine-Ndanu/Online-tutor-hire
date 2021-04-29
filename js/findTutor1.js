@@ -11,15 +11,16 @@ $(document).ready(function () {
 
 })
 $(document).ready(function () {
-    
-  
-    $(".schedule").click(function () {
-        alert("A request has been send to the tutor.")
+
+
+    $(".schedule").click(function () {           
+          swal({
+            title: "Your request has been replaced successfully." + "\r\n" + "The tutor will get back to you",
+            icon: "success",
+        }).then((value) => {
+            location.reload();
+        });
     });
- 
-
-})
-
 
     var tutors = [{
             name: "Mary Jackson",
@@ -82,7 +83,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[6].name + "</h4> <p>" + tutors[6].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[6].specialization +
                 "</p> <p>" + tutors[6].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
 
@@ -90,23 +91,23 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[5].name + "</h4> <p>" + tutors[5].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[5].specialization +
                 "</p> <p>" + tutors[5].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
         } else if (selectedSubject == "Chemistry") {
-            $("#tutorList").prepend("<div class='d-flex border p-1' id='tutor'> <img src='images/tutor6.jpeg' class='flex-shrink-0 me-3 mt-3 rounded-circle'>" +
+            $("#tutorList").prepend("<div class='d-flex border p-1' id='tutor'> <img src='images/tutor9.jpeg' class='flex-shrink-0 me-3 mt-3 rounded-circle'>" +
                 "<div> <h4> " + tutors[0].name + "</h4> <p>" + tutors[0].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[0].specialization +
                 "</p> <p>" + tutors[0].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
 
-            $("#tutorList").prepend("<div class='d-flex border p-1' id='tutor'> <img src='images/tutor9.jpeg' class='flex-shrink-0 me-3 mt-3 rounded-circle'>" +
+            $("#tutorList").prepend("<div class='d-flex border p-1' id='tutor'> <img src='images/tutor6.jpeg' class='flex-shrink-0 me-3 mt-3 rounded-circle'>" +
                 "<div> <h4> " + tutors[1].name + "</h4> <p>" + tutors[1].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[1].specialization +
                 "</p> <p>" + tutors[1].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
         } else if (selectedSubject == "English") {
@@ -114,7 +115,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[4].name + "</h4> <p>" + tutors[4].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[4].specialization +
                 "</p> <p>" + tutors[4].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
 
@@ -123,7 +124,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[3].name + "</h4> <p>" + tutors[3].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[3].specialization +
                 "</p> <p>" + tutors[3].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
 
@@ -133,7 +134,7 @@ $(document).ready(function () {
                 "<div> <h4> " + tutors[2].name + "</h4> <p>" + tutors[2].gender + "<br> <strong>" + "Specialization: " + "</strong>" + tutors[2].specialization +
                 "</p> <p>" + tutors[2].description + "<p> <span class='fa fa-star checked'>" +
                 "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" + "</span> <span class='fa fa-star checked'>" +
-                "</span> <span class='fa fa-star checked'>" + "</span> <a href='' class='btn btn-warning'>" + "SCHEDULE A SEESION" + "</a>" +
+                "</span> <span class='fa fa-star checked'>" + "</span> <btn class='btn btn-warning schedule'>" + "SCHEDULE A SEESION" + "</btn>" +
                 "</div>"
             );
 
@@ -142,6 +143,15 @@ $(document).ready(function () {
         $('.clear').click(function () {
             location.reload();
         })
+
+        $(".schedule").click(function () {
+            swal({
+                title: "Your request has been replaced successfully." + "\r\n" + "The tutor will get back to you",
+                icon: "success",
+            }).then((value) => {
+                location.reload();
+            });
+        });
     })
 
 })
