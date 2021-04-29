@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="./css/findTutorStructure.css">
     <link rel="stylesheet" href="./css/findTutor1.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"
         integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/findTutor1.js"></script>
@@ -57,13 +57,13 @@
             <div class="overlay container-fluid" id="text">
                 <h1>Need Professional Help?</h1>
                 <h2> We connect you with top-rated tutors</h2>
-                <a href="#find" class="btn btn-dark ">View Tutors<a>
+                <a href="#pickSubject" class="btn view ">View Tutors<a>
             </div>
         </div>
 
         <section class="findTutor bg-white rounded " id="find">
-
-            <div class="search container">
+            <div id="pickSubject" ></div>
+            <div class="search container" >
                 <select class="selectpicker pick" data-live-search="true">
                     <option value="" disabled selected>Choose a subject</option>
                     <option value="1">Chemistry</option>
@@ -73,7 +73,7 @@
                     <option value="3">Biology</option>
                 </select>
 
-                <btn class="btn btn-dark clear">Clear List</btn>
+                <btn class="btn btn-warning clear">Clear List</btn>
 
 
             </div>
